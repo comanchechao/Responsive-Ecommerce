@@ -100,3 +100,105 @@
   color: #7fbb35;
   font-weight: 400;
 }
+#pt-menu-9504 .pt-menu-bar {
+  background: #7fbb35;
+  color: #ffffff;
+  padding: 1.5rem 2rem 1.5rem 2rem;
+}
+
+#pt-menu-9504.pt-menu-bar {
+  background: #7fbb35;
+  color: #ffffff;
+}
+
+#pt-menu-9504 .ul-top-items .li-top-item .a-top-link {
+  background: #ffffff;
+  padding: 1rem 0px 1rem 1.8rem;
+  color: #222222;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+#pt-menu-9504 .ul-top-items .li-top-item:hover .a-top-link,
+#pt-menu-9504 .ul-top-items .li-top-item:hover .a-top-link i,
+#pt-menu-9504 .ul-top-items .li-top-item.active .a-top-link {
+  color: #7fbb35;
+  font-weight: 400;
+  background: #ffffff;
+}
+
+#pt-menu-9504 .mega-menu-container {
+  background: #ffffff;
+  padding: 2.5rem 3rem 3rem 3rem;
+}
+
+#pt-menu-9504 .mega-menu-container .a-mega-second-link {
+  color: #222222;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#pt-menu-9504 .mega-menu-container .a-mega-second-link:hover {
+  color: #7fbb35;
+  font-weight: 700;
+}
+
+#pt-menu-9504 .mega-menu-container .a-mega-third-link {
+  color: #777777;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+#pt-menu-9504 .mega-menu-container .a-mega-third-link:hover {
+  color: #7fbb35;
+  font-weight: 400;
+}
+
+#pt-menu-9504 .ul-second-items .li-second-items {
+  background: #ffffff;
+  color: #222222;
+}
+
+#pt-menu-9504 .ul-second-items .li-second-items:hover,
+#pt-menu-9504 .ul-second-items .li-second-items.active {
+  background: #ffffff;
+  color: #7fbb35;
+}
+
+#pt-menu-9504 .ul-second-items .li-second-items .a-second-link {
+  color: #222222;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+#pt-menu-9504 .ul-second-items .li-second-items .a-second-link:hover,
+#pt-menu-9504 .ul-second-items .li-second-items.active .a-second-link {
+  color: #7fbb35;
+  font-weight: 700;
+}
+
+#pt-menu-9504 .ul-third-items .li-third-items {
+  background: #ffffff;
+}
+
+#pt-menu-9504 .ul-third-items .li-third-items:hover,
+#pt-menu-9504 .ul-third-items .li-third-items.active {
+  background: #ffffff;
+}
+
+#pt-menu-9504 .ul-third-items .li-third-items .a-third-link {
+  color: #777777;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+#pt-menu-9504 .ul-third-items .li-third-items .a-third-link:hover,
+#pt-menu-9504 .ul-third-items .li-third-items.active .a-third-link {
+  color: #7fbb35;
+  font-weight: 400;
+}
