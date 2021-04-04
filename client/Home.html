@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <footer>
+        <div class="newsletter-group">
+          <div class="container">
+            <div class="row align-items-center justify-content-around">
+              <div class="col-4 newsletter-heading">
+                <h3>Sign up for Newsletter</h3>
+                <p>Register now to get updates on promotions & coupons.</p>
+              </div>
+              <div class="col-4 newsletter-content">
+                <div class="content">
+                  <input
+                    type="text"
+                    class="newsletter_email"
+                    name="mail_subscribe"
+                    value=""
+                    placeholder="Please enter your email to subscribe"
+                  />
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    onclick="ptnewsletter.saveMail($(this));"
+                  >
+                    Subscribe
+                  </button>
+                </div>
+                <!-- <div class="newsletter-notification error">
+                    Invalid E-mail Address!
+                </div> -->
+              </div>
+              <div class="col-4 social">
+                <a
+                  href="https://www.facebook.com/PlazaThemes1/"
+                  class="facebook"
+                  target="_blank"
+                  title="Facebook"
+                  >Facebook</a
+                >
+                <a
+                  href="https://twitter.com/plazathemes"
+                  target="_blank"
+                  class="twitter"
+                  title="Twitter"
+                  >Twitter</a
+                >
+                <a href="#" target="_blank" class="google" title="Google+"
+                  >Google</a
+                >
+                <a
+                  href="https://www.youtube.com/user/plazathemes"
+                  target="_blank"
+                  class="youtube"
+                  title="Youtube"
+                  >Youtube</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+  </body>
+</html>
