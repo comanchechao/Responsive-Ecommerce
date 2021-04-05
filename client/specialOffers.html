@@ -4,73 +4,51 @@
 <!--[if IE 9]><html dir="ltr" lang="en" class="ie9"><![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!-->
 <html dir="ltr" lang="en">
-  <!--<![endif]-->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Special Offers</title>
-    <base href="http://ostromi.demo.towerthemes.com/" />
+    <title>Ostromi 1 - Responsive Opencart Theme</title>
+
+    <meta name="description" content="My Store" />
+    <link href="./css/bootstrap.min.css" rel="stylesheet" media="screen" />
     <link
-      href="catalog/view/javascript/bootstrap/css/bootstrap.min.css"
+      href="./css/bootstrap-datetimepicker.min.css"
+      type="text/css"
       rel="stylesheet"
       media="screen"
     />
-    <link
-      href="catalog/view/javascript/jquery/swiper/css/swiper.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <!-- icon font -->
-    <link
-      href="catalog/view/javascript/font-awesome/css/font-awesome.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="catalog/view/javascript/ionicons/css/ionicons.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <!-- use for ostromi -->
+    <link href="./css/swiper.min.css" rel="stylesheet" type="text/css" />
 
-    <!-- end icon font -->
-    <link
-      href="catalog/view/theme/tt_ostromi1/stylesheet/stylesheet.css"
-      rel="stylesheet"
-    />
-    <link
-      href="catalog/view/theme/tt_ostromi1/stylesheet/plaza/header/header1.css"
-      rel="stylesheet"
-    />
-    <link
-      href="catalog/view/theme/tt_ostromi1/stylesheet/plaza/theme.css"
-      rel="stylesheet"
-    />
-    <script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js"></script>
-    <script src="catalog/view/javascript/jquery/swiper/js/swiper.min.js"></script>
-    <script src="catalog/view/javascript/plaza/ultimatemenu/menu.js"></script>
-    <script src="catalog/view/javascript/plaza/newsletter/mail.js"></script>
-    <script src="catalog/view/javascript/common.js"></script>
-    <link
-      href="http://ostromi.demo.towerthemes.com/product-special"
-      rel="canonical"
-    />
-    <link
-      href="http://ostromi.demo.towerthemes.com/image/catalog/cart.png"
-      rel="icon"
-    />
-    <!-- Quick view -->
-    <script src="catalog/view/javascript/plaza/cloudzoom/cloud-zoom.1.0.2.min.js"></script>
-    <script src="catalog/view/javascript/plaza/cloudzoom/zoom.js"></script>
-    <script src="catalog/view/javascript/plaza/quickview/quickview.js"></script>
-    <link
-      href="catalog/view/theme/tt_ostromi1/stylesheet/plaza/quickview/quickview.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <!-- General -->
-    <!-- Sticky Menu -->
+    <link href="./css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="./css/ionicons.css" rel="stylesheet" type="text/css" />
+
+    <script
+      src="https://kit.fontawesome.com/6d5cea7546.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="./css/stylesheet.css" rel="stylesheet" />
+    <link href="./css/header1.css" rel="stylesheet" />
+    <link href="./css/theme.css" rel="stylesheet" />
+    <script src="./js/jquery-2.1.1.min.js"></script>
+    <script src="./js/swiper.min.js"></script>
+    <script src="./js/mail.js"></script>
+    <script src="./js/ajaxlogin.js"></script>
+    <script src="./js/moment.min.js"></script>
+    <script src="./js/moment-with-locales.min.js"></script>
+    <script src="./js/bootstrap-datetimepicker.min.js"></script>
+    <script src="./js/jquery.nivo.slider.js"></script>
+    <script src="./js/countdown.js"></script>
+    <script src="./js/menu.js"></script>
+    <script src="./js/common.js"></script>
+    <link href="./assets/images/cart.png" rel="icon" />
+
+    <script src="./js/cloud-zoom.1.0.2.min.js"></script>
+    <script src="./js/zoom.js"></script>
+    <script src="./js/quickview.js"></script>
+    <link href="./css/quickview.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="styles.css" />
+
     <script>
       $(document).ready(function () {
         var height_box_scroll = $(".scroll-fix").outerHeight(true);
@@ -85,7 +63,7 @@
         });
       });
     </script>
-    <!-- Scroll Top -->
+    <!--scroll control -->
     <script>
       $("#back-top").hide();
       $(function () {
@@ -102,10 +80,8 @@
         });
       });
     </script>
-    <!-- Advance -->
 
-    <!-- Bootstrap Js -->
-    <script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
   </head>
   <body class="product-special">
     <div class="wrapper">
@@ -114,9 +90,9 @@
         <div class="container">
           <div class="box-inner">
             <ul class="box-top box-top-left pull-left">
-              <!--<li><a href="http://ostromi.demo.towerthemes.com/information-contact"><i class="fa fa-phone"></i> <span class="hidden-xs hidden-sm hidden-md">+88.2345.6789</span></a></li>
-							<li><a href="http://ostromi.demo.towerthemes.com/index.php?route=checkout/cart" title="Shopping Cart"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Shopping Cart</span></a></li>
-				<li><a href="http://ostromi.demo.towerthemes.com/index.php?route=checkout/checkout" title="Checkout"><i class="fa fa-share"></i> <span class="hidden-xs hidden-sm hidden-md">Checkout</span></a></li>
+              <!--<li><a href="/information-contact"><i class="fa fa-phone"></i> <span class="hidden-xs hidden-sm hidden-md">+88.2345.6789</span></a></li>
+							<li><a href="/index.php?route=checkout/cart" title="Shopping Cart"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Shopping Cart</span></a></li>
+				<li><a href="/index.php?route=checkout/checkout" title="Checkout"><i class="fa fa-share"></i> <span class="hidden-xs hidden-sm hidden-md">Checkout</span></a></li>
 			 -->
               <li>
                 <p>Mid-season sale up to 20% OFF. Use code “SALEOFF20”</p>
@@ -125,7 +101,7 @@
             <ul class="box-top box-top-right pull-right">
               <li class="currency">
                 <form
-                  action="http://ostromi.demo.towerthemes.com/index.php?route=common/currency/currency"
+                  action="/index.php?route=common/currency/currency"
                   method="post"
                   enctype="multipart/form-data"
                   id="form-currency"
@@ -175,13 +151,13 @@
                   <input
                     type="hidden"
                     name="redirect"
-                    value="http://ostromi.demo.towerthemes.com/product-special"
+                    value="/product-special"
                   />
                 </form>
               </li>
               <li class="language">
                 <form
-                  action="http://ostromi.demo.towerthemes.com/index.php?route=common/language/language"
+                  action="/index.php?route=common/language/language"
                   method="post"
                   enctype="multipart/form-data"
                   id="form-language"
@@ -236,7 +212,7 @@
                   <input
                     type="hidden"
                     name="redirect"
-                    value="http://ostromi.demo.towerthemes.com/product-special"
+                    value="/product-special"
                   />
                 </form>
               </li>
@@ -244,7 +220,7 @@
                 <ul class="list-inline">
                   <li class="dropdown">
                     <a
-                      href="http://ostromi.demo.towerthemes.com/index.php?route=account/account"
+                      href="/index.php?route=account/account"
                       title="My Account"
                       class="dropdown-toggle"
                       data-toggle="dropdown"
@@ -256,16 +232,12 @@
                       <li>
                         <a
                           id="pt-register-link"
-                          href="http://ostromi.demo.towerthemes.com/index.php?route=account/register"
+                          href="/index.php?route=account/register"
                           >Register</a
                         >
                       </li>
                       <li>
-                        <a
-                          id="pt-login-link"
-                          href="http://ostromi.demo.towerthemes.com/account-login"
-                          >Login</a
-                        >
+                        <a id="pt-login-link" href="/account-login">Login</a>
                       </li>
                     </ul>
                   </li>
@@ -394,18 +366,12 @@
                 <ul class="ul-top-items">
                   <li class="menu-mobile-title"><h3>Mobile Menu</h3></li>
                   <li class="li-top-item">
-                    <a
-                      class="a-top-link a-item"
-                      href="http://ostromi.demo.towerthemes.com/"
-                    >
+                    <a class="a-top-link a-item" href="/">
                       <span>Home</span>
                     </a>
                   </li>
                   <li class="li-top-item">
-                    <a
-                      class="a-top-link a-item"
-                      href="http://ostromi.demo.towerthemes.com/shop"
-                    >
+                    <a class="a-top-link a-item" href="/shop">
                       <span>Shop</span>
                     </a>
                     <span class="top-click-show a-click-show">
@@ -417,7 +383,7 @@
                       <ul class="ul-second-items">
                         <li class="li-second-items">
                           <a
-                            href="http://ostromi.demo.towerthemes.com/shop/fish-and-seafood"
+                            href="/shop/fish-and-seafood"
                             class="a-second-link a-item"
                           >
                             <span class="a-second-title">Fish and Seafood</span>
@@ -433,7 +399,7 @@
                             <ul class="ul-third-items">
                               <li class="li-third-items">
                                 <a
-                                  href="http://ostromi.demo.towerthemes.com/shop/fish-and-seafood/dining-chairs "
+                                  href="/shop/fish-and-seafood/dining-chairs "
                                   class="a-third-link"
                                   ><span class="a-third-title"
                                     >Dining Chairs</span
@@ -442,7 +408,7 @@
                               </li>
                               <li class="li-third-items">
                                 <a
-                                  href="http://ostromi.demo.towerthemes.com/shop/fish-and-seafood/dining-tables "
+                                  href="/shop/fish-and-seafood/dining-tables "
                                   class="a-third-link"
                                   ><span class="a-third-title"
                                     >Dining Tables
@@ -451,7 +417,7 @@
                               </li>
                               <li class="li-third-items">
                                 <a
-                                  href="http://ostromi.demo.towerthemes.com/index.php?route=product/category&amp;path=164_180_184"
+                                  href="/index.php?route=product/category&amp;path=164_180_184"
                                   class="a-third-link"
                                   ><span class="a-third-title"
                                     >Gramophone</span
@@ -460,7 +426,7 @@
                               </li>
                               <li class="li-third-items">
                                 <a
-                                  href="http://ostromi.demo.towerthemes.com/shop/fish-and-seafood/sideboards"
+                                  href="/shop/fish-and-seafood/sideboards"
                                   class="a-third-link"
                                   ><span class="a-third-title"
                                     >Sideboards</span
@@ -469,7 +435,7 @@
                               </li>
                               <li class="li-third-items">
                                 <a
-                                  href="http://ostromi.demo.towerthemes.com/shop/fish-and-seafood/tableware"
+                                  href="/shop/fish-and-seafood/tableware"
                                   class="a-third-link"
                                   ><span class="a-third-title"
                                     >Tableware</span
@@ -481,7 +447,7 @@
                         </li>
                         <li class="li-second-items">
                           <a
-                            href="http://ostromi.demo.towerthemes.com/shop/butter-and-margarine"
+                            href="/shop/butter-and-margarine"
                             class="a-second-link a-item"
                           >
                             <span class="a-second-title"
@@ -499,35 +465,35 @@
                             <ul class="ul-third-items">
                               <li class="li-third-items">
                                 <a
-                                  href="http://ostromi.demo.towerthemes.com/index.php?route=product/category&amp;path=164_173_174"
+                                  href="/index.php?route=product/category&amp;path=164_173_174"
                                   class="a-third-link"
                                   ><span class="a-third-title">Bed</span></a
                                 >
                               </li>
                               <li class="li-third-items">
                                 <a
-                                  href="http://ostromi.demo.towerthemes.com/index.php?route=product/category&amp;path=164_173_175"
+                                  href="/index.php?route=product/category&amp;path=164_173_175"
                                   class="a-third-link"
                                   ><span class="a-third-title">Daybed</span></a
                                 >
                               </li>
                               <li class="li-third-items">
                                 <a
-                                  href="http://ostromi.demo.towerthemes.com/index.php?route=product/category&amp;path=164_173_176"
+                                  href="/index.php?route=product/category&amp;path=164_173_176"
                                   class="a-third-link"
                                   ><span class="a-third-title">Futon</span></a
                                 >
                               </li>
                               <li class="li-third-items">
                                 <a
-                                  href="http://ostromi.demo.towerthemes.com/index.php?route=product/category&amp;path=164_173_177"
+                                  href="/index.php?route=product/category&amp;path=164_173_177"
                                   class="a-third-link"
                                   ><span class="a-third-title">Hammock</span></a
                                 >
                               </li>
                               <li class="li-third-items">
                                 <a
-                                  href="http://ostromi.demo.towerthemes.com/index.php?route=product/category&amp;path=164_173_178"
+                                  href="/index.php?route=product/category&amp;path=164_173_178"
                                   class="a-third-link"
                                   ><span class="a-third-title"
                                     >Headboard</span
@@ -539,7 +505,7 @@
                         </li>
                         <li class="li-second-items">
                           <a
-                            href="http://ostromi.demo.towerthemes.com/shop/dinners-and-entrees"
+                            href="/shop/dinners-and-entrees"
                             class="a-second-link a-item"
                           >
                             <span class="a-second-title"
@@ -557,7 +523,7 @@
                             <ul class="ul-third-items">
                               <li class="li-third-items">
                                 <a
-                                  href="http://ostromi.demo.towerthemes.com/shop/dinners-and-entrees/chairs-sofas"
+                                  href="/shop/dinners-and-entrees/chairs-sofas"
                                   class="a-third-link"
                                   ><span class="a-third-title"
                                     >Chairs &amp; Sofas</span
@@ -566,14 +532,14 @@
                               </li>
                               <li class="li-third-items">
                                 <a
-                                  href="http://ostromi.demo.towerthemes.com/index.php?route=product/category&amp;path=164_194_199"
+                                  href="/index.php?route=product/category&amp;path=164_194_199"
                                   class="a-third-link"
                                   ><span class="a-third-title">Chest</span></a
                                 >
                               </li>
                               <li class="li-third-items">
                                 <a
-                                  href="http://ostromi.demo.towerthemes.com/shop/dinners-and-entrees/loungers"
+                                  href="/shop/dinners-and-entrees/loungers"
                                   class="a-third-link"
                                   ><span class="a-third-title"
                                     >Loungers</span
@@ -582,14 +548,14 @@
                               </li>
                               <li class="li-third-items">
                                 <a
-                                  href="http://ostromi.demo.towerthemes.com/shop/dinners-and-entrees/sets"
+                                  href="/shop/dinners-and-entrees/sets"
                                   class="a-third-link"
                                   ><span class="a-third-title">Sets</span></a
                                 >
                               </li>
                               <li class="li-third-items">
                                 <a
-                                  href="http://ostromi.demo.towerthemes.com/shop/dinners-and-entrees/tables-outdoor"
+                                  href="/shop/dinners-and-entrees/tables-outdoor"
                                   class="a-third-link"
                                   ><span class="a-third-title">Tables</span></a
                                 >
@@ -601,10 +567,7 @@
                     </div>
                   </li>
                   <li class="li-top-item">
-                    <a
-                      class="a-top-link a-item"
-                      href="http://ostromi.demo.towerthemes.com/accessories"
-                    >
+                    <a class="a-top-link a-item" href="/accessories">
                       <span>Accessories</span>
                     </a>
                     <span class="top-click-show a-click-show">
@@ -616,7 +579,7 @@
                       <ul class="ul-second-items">
                         <li class="li-second-items">
                           <a
-                            href="http://ostromi.demo.towerthemes.com/accessories/mice-and-trackballs"
+                            href="/accessories/mice-and-trackballs"
                             class="a-second-link a-item"
                           >
                             <span class="a-second-title"
@@ -634,21 +597,21 @@
                             <ul class="ul-third-items">
                               <li class="li-third-items">
                                 <a
-                                  href="http://ostromi.demo.towerthemes.com/index.php?route=product/category&amp;path=25_29_83"
+                                  href="/index.php?route=product/category&amp;path=25_29_83"
                                   class="a-third-link"
                                   ><span class="a-third-title">Mice 1</span></a
                                 >
                               </li>
                               <li class="li-third-items">
                                 <a
-                                  href="http://ostromi.demo.towerthemes.com/index.php?route=product/category&amp;path=25_29_84"
+                                  href="/index.php?route=product/category&amp;path=25_29_84"
                                   class="a-third-link"
                                   ><span class="a-third-title">Mice 2</span></a
                                 >
                               </li>
                               <li class="li-third-items">
                                 <a
-                                  href="http://ostromi.demo.towerthemes.com/index.php?route=product/category&amp;path=25_29_81"
+                                  href="/index.php?route=product/category&amp;path=25_29_81"
                                   class="a-third-link"
                                   ><span class="a-third-title"
                                     >Trackballs 1</span
@@ -657,7 +620,7 @@
                               </li>
                               <li class="li-third-items">
                                 <a
-                                  href="http://ostromi.demo.towerthemes.com/index.php?route=product/category&amp;path=25_29_82"
+                                  href="/index.php?route=product/category&amp;path=25_29_82"
                                   class="a-third-link"
                                   ><span class="a-third-title"
                                     >Trackballs 2</span
@@ -669,7 +632,7 @@
                         </li>
                         <li class="li-second-items">
                           <a
-                            href="http://ostromi.demo.towerthemes.com/accessories/scanners"
+                            href="/accessories/scanners"
                             class="a-second-link a-item"
                           >
                             <span class="a-second-title">Scanners</span>
@@ -685,7 +648,7 @@
                             <ul class="ul-third-items">
                               <li class="li-third-items">
                                 <a
-                                  href="http://ostromi.demo.towerthemes.com/index.php?route=product/category&amp;path=25_31_85"
+                                  href="/index.php?route=product/category&amp;path=25_31_85"
                                   class="a-third-link"
                                   ><span class="a-third-title"
                                     >Scanners 1</span
@@ -694,7 +657,7 @@
                               </li>
                               <li class="li-third-items">
                                 <a
-                                  href="http://ostromi.demo.towerthemes.com/index.php?route=product/category&amp;path=25_31_86"
+                                  href="/index.php?route=product/category&amp;path=25_31_86"
                                   class="a-third-link"
                                   ><span class="a-third-title"
                                     >Scanners 2</span
@@ -703,7 +666,7 @@
                               </li>
                               <li class="li-third-items">
                                 <a
-                                  href="http://ostromi.demo.towerthemes.com/index.php?route=product/category&amp;path=25_31_87"
+                                  href="/index.php?route=product/category&amp;path=25_31_87"
                                   class="a-third-link"
                                   ><span class="a-third-title"
                                     >Scanners 3</span
@@ -712,7 +675,7 @@
                               </li>
                               <li class="li-third-items">
                                 <a
-                                  href="http://ostromi.demo.towerthemes.com/index.php?route=product/category&amp;path=25_31_88"
+                                  href="/index.php?route=product/category&amp;path=25_31_88"
                                   class="a-third-link"
                                   ><span class="a-third-title"
                                     >Scanners 4</span
@@ -726,34 +689,22 @@
                     </div>
                   </li>
                   <li class="li-top-item">
-                    <a
-                      class="a-top-link a-item"
-                      href="http://ostromi.demo.towerthemes.com/product-special"
-                    >
+                    <a class="a-top-link a-item" href="/product-special">
                       <span>Specials</span>
                     </a>
                   </li>
                   <li class="li-top-item">
-                    <a
-                      class="a-top-link a-item"
-                      href="http://ostromi.demo.towerthemes.com/about_us"
-                    >
+                    <a class="a-top-link a-item" href="/about_us">
                       <span>About us</span>
                     </a>
                   </li>
                   <li class="li-top-item">
-                    <a
-                      class="a-top-link a-item"
-                      href="http://ostromi.demo.towerthemes.com/information-contact"
-                    >
+                    <a class="a-top-link a-item" href="/information-contact">
                       <span>Contact Us</span>
                     </a>
                   </li>
                   <li class="li-top-item">
-                    <a
-                      class="a-top-link a-item"
-                      href="http://ostromi.demo.towerthemes.com/blog"
-                    >
+                    <a class="a-top-link a-item" href="/blog">
                       <span>Blog</span>
                     </a>
                   </li>
@@ -761,9 +712,9 @@
               </div>
 
               <div id="logo">
-                <a href="http://ostromi.demo.towerthemes.com/"
+                <a href="/"
                   ><img
-                    src="http://ostromi.demo.towerthemes.com/image/catalog/logo/ostromi1.png"
+                    src="./assets/images/ostromi1.png"
                     title=""
                     alt=""
                     class="img-responsive"
@@ -772,16 +723,13 @@
 
               <div class="col-cart">
                 <div class="header-phone hidden-lg">
-                  <a
-                    href="http://ostromi.demo.towerthemes.com/information-contact"
+                  <a href="/information-contact"
                     ><span class="hidden-xs hidden-sm hidden-md"
                       >Call Us Now:<span>+88.2345.6789</span></span
                     ></a
                   >
                 </div>
-                <a
-                  href="http://ostromi.demo.towerthemes.com/index.php?route=account/wishlist"
-                  id="wishlist-total"
+                <a href="/index.php?route=account/wishlist" id="wishlist-total"
                   ><span
                     ><span class="text-wishlist">Wish List</span>
                     <span class="txt-count">0</span></span
@@ -1032,7 +980,7 @@
                     <div class="search-ajax">
                       <div class="ajax-loader-container" style="display: none">
                         <img
-                          src="http://ostromi.demo.towerthemes.com/image/catalog/ajax-loader.gif"
+                          src="./assets/images/ajax-loader.gif"
                           alt="search-ajax"
                           class="ajax-load-img"
                           width="30"
@@ -1096,8 +1044,7 @@
                   });
 
                   $("#btn-search-category").click(function () {
-                    var url =
-                      "http://ostromi.demo.towerthemes.com/index.php?route=product/search";
+                    var url = "/index.php?route=product/search";
                     var text_search = $("#text-search").val();
                     if (text_search) {
                       url += "&search=" + encodeURIComponent(text_search);
@@ -1145,7 +1092,7 @@
                   function ajaxSearch(text_search, cate_search) {
                     $.ajax({
                       url:
-                        "http://ostromi.demo.towerthemes.com/index.php?route=extension/module/ptsearch/ajaxSearch",
+                        "/index.php?route=extension/module/ptsearch/ajaxSearch",
                       type: "post",
                       data: {
                         text_search: text_search,
@@ -1289,10 +1236,7 @@
                   </div>
                   <ul class="ul-top-items">
                     <li class="li-top-item left">
-                      <a
-                        class="a-top-link a-item"
-                        href="http://ostromi.demo.towerthemes.com/fruits-vegetables"
-                      >
+                      <a class="a-top-link a-item" href="/fruits-vegetables">
                         <span>Fruits &amp; Vegetables</span>
                         <i
                           class="icon-more-right ion-ios-arrow-right"
@@ -1307,9 +1251,7 @@
                         <div class="row">
                           <div class="col-md-3 sub-item2-content" data-cols="3">
                             <h4>
-                              <a
-                                class="a-mega-second-link"
-                                href="http://ostromi.demo.towerthemes.com/fruits"
+                              <a class="a-mega-second-link" href="/fruits"
                                 >Fruits</a
                               >
                             </h4>
@@ -1317,63 +1259,63 @@
                               <h5>
                                 <a
                                   class="a-mega-third-link"
-                                  href="http://ostromi.demo.towerthemes.com/fruits/avocado"
+                                  href="/fruits/avocado"
                                   >Avocado</a
                                 >
                               </h5>
                               <h5>
                                 <a
                                   class="a-mega-third-link"
-                                  href="http://ostromi.demo.towerthemes.com/fruits/banana"
+                                  href="/fruits/banana"
                                   >Banana</a
                                 >
                               </h5>
                               <h5>
                                 <a
                                   class="a-mega-third-link"
-                                  href="http://ostromi.demo.towerthemes.com/fruits/blueberries"
+                                  href="/fruits/blueberries"
                                   >Blueberries</a
                                 >
                               </h5>
                               <h5>
                                 <a
                                   class="a-mega-third-link"
-                                  href="http://ostromi.demo.towerthemes.com/fruits/coconut"
+                                  href="/fruits/coconut"
                                   >Coconut*</a
                                 >
                               </h5>
                               <h5>
                                 <a
                                   class="a-mega-third-link"
-                                  href="http://ostromi.demo.towerthemes.com/fruits/coffee"
+                                  href="/fruits/coffee"
                                   >Coffee</a
                                 >
                               </h5>
                               <h5>
                                 <a
                                   class="a-mega-third-link"
-                                  href="http://ostromi.demo.towerthemes.com/fruits/cucumber"
+                                  href="/fruits/cucumber"
                                   >Cucumber</a
                                 >
                               </h5>
                               <h5>
                                 <a
                                   class="a-mega-third-link"
-                                  href="http://ostromi.demo.towerthemes.com/fruits/eggplant"
+                                  href="/fruits/eggplant"
                                   >Eggplant</a
                                 >
                               </h5>
                               <h5>
                                 <a
                                   class="a-mega-third-link"
-                                  href="http://ostromi.demo.towerthemes.com/fruits/squash"
+                                  href="/fruits/squash"
                                   >Squash</a
                                 >
                               </h5>
                               <h5>
                                 <a
                                   class="a-mega-third-link"
-                                  href="http://ostromi.demo.towerthemes.com/fruits/tomato"
+                                  href="/fruits/tomato"
                                   >Tomato</a
                                 >
                               </h5>
@@ -1382,9 +1324,7 @@
 
                           <div class="col-md-3 sub-item2-content" data-cols="3">
                             <h4>
-                              <a
-                                class="a-mega-second-link"
-                                href="http://ostromi.demo.towerthemes.com/vegetables"
+                              <a class="a-mega-second-link" href="/vegetables"
                                 >Vegetables</a
                               >
                             </h4>
@@ -1392,63 +1332,63 @@
                               <h5>
                                 <a
                                   class="a-mega-third-link"
-                                  href="http://ostromi.demo.towerthemes.com/vegetables/arugula"
+                                  href="/vegetables/arugula"
                                   >Arugula</a
                                 >
                               </h5>
                               <h5>
                                 <a
                                   class="a-mega-third-link"
-                                  href="http://ostromi.demo.towerthemes.com/vegetables/beets"
+                                  href="/vegetables/beets"
                                   >Beets</a
                                 >
                               </h5>
                               <h5>
                                 <a
                                   class="a-mega-third-link"
-                                  href="http://ostromi.demo.towerthemes.com/vegetables/cabbage"
+                                  href="/vegetables/cabbage"
                                   >Cabbage</a
                                 >
                               </h5>
                               <h5>
                                 <a
                                   class="a-mega-third-link"
-                                  href="http://ostromi.demo.towerthemes.com/vegetables/carrots"
+                                  href="/vegetables/carrots"
                                   >Carrots</a
                                 >
                               </h5>
                               <h5>
                                 <a
                                   class="a-mega-third-link"
-                                  href="http://ostromi.demo.towerthemes.com/vegetables/kale"
+                                  href="/vegetables/kale"
                                   >Kale</a
                                 >
                               </h5>
                               <h5>
                                 <a
                                   class="a-mega-third-link"
-                                  href="http://ostromi.demo.towerthemes.com/vegetables/onions"
+                                  href="/vegetables/onions"
                                   >Onions</a
                                 >
                               </h5>
                               <h5>
                                 <a
                                   class="a-mega-third-link"
-                                  href="http://ostromi.demo.towerthemes.com/vegetables/potatoes"
+                                  href="/vegetables/potatoes"
                                   >Potatoes</a
                                 >
                               </h5>
                               <h5>
                                 <a
                                   class="a-mega-third-link"
-                                  href="http://ostromi.demo.towerthemes.com/vegetables/spinach"
+                                  href="/vegetables/spinach"
                                   >Spinach</a
                                 >
                               </h5>
                               <h5>
                                 <a
                                   class="a-mega-third-link"
-                                  href="http://ostromi.demo.towerthemes.com/vegetables/yams"
+                                  href="/vegetables/yams"
                                   >Yams</a
                                 >
                               </h5>
@@ -1460,7 +1400,7 @@
                               <div class="image">
                                 <a href="#"
                                   ><img
-                                    src="image/catalog/ptblock/img-ver-menu.jpg"
+                                    src="./assets/images/img-ver-menu.jpg"
                                     alt="img-ver-menu"
                                 /></a>
                               </div>
@@ -1472,10 +1412,7 @@
                       <!-- Flyout Menu -->
                     </li>
                     <li class="li-top-item left">
-                      <a
-                        class="a-top-link a-item"
-                        href="http://ostromi.demo.towerthemes.com/fresh-meat"
-                      >
+                      <a class="a-top-link a-item" href="/fresh-meat">
                         <span>Fesh Meat</span>
                         <i
                           class="icon-more-right ion-ios-arrow-right"
@@ -1492,7 +1429,7 @@
                         <ul class="ul-second-items">
                           <li class="li-second-items">
                             <a
-                              href="http://ostromi.demo.towerthemes.com/fresh-meat/beef"
+                              href="/fresh-meat/beef"
                               class="a-second-link a-item"
                             >
                               <span class="a-second-title">Beef</span>
@@ -1505,7 +1442,7 @@
                               <ul class="ul-third-items">
                                 <li class="li-third-items">
                                   <a
-                                    href="http://ostromi.demo.towerthemes.com/fresh-meat/beef/with-apple"
+                                    href="/fresh-meat/beef/with-apple"
                                     class="a-third-link"
                                     ><span class="a-third-title"
                                       >With apple</span
@@ -1514,7 +1451,7 @@
                                 </li>
                                 <li class="li-third-items">
                                   <a
-                                    href="http://ostromi.demo.towerthemes.com/fresh-meat/beef/with-peas"
+                                    href="/fresh-meat/beef/with-peas"
                                     class="a-third-link"
                                     ><span class="a-third-title"
                                       >With peas</span
@@ -1523,7 +1460,7 @@
                                 </li>
                                 <li class="li-third-items">
                                   <a
-                                    href="http://ostromi.demo.towerthemes.com/fresh-meat/beef/with-potato"
+                                    href="/fresh-meat/beef/with-potato"
                                     class="a-third-link"
                                     ><span class="a-third-title"
                                       >With potato</span
@@ -1535,7 +1472,7 @@
                           </li>
                           <li class="li-second-items">
                             <a
-                              href="http://ostromi.demo.towerthemes.com/fresh-meat/pork"
+                              href="/fresh-meat/pork"
                               class="a-second-link a-item"
                             >
                               <span class="a-second-title">Pork</span>
@@ -1545,10 +1482,7 @@
                       </div>
                     </li>
                     <li class="li-top-item left">
-                      <a
-                        class="a-top-link a-item"
-                        href="http://ostromi.demo.towerthemes.com/dairy-eggs"
-                      >
+                      <a class="a-top-link a-item" href="/dairy-eggs">
                         <span>Dairy &amp; Eggs</span>
                         <i
                           class="icon-more-right ion-ios-arrow-right"
@@ -1565,7 +1499,7 @@
                         <ul class="ul-second-items">
                           <li class="li-second-items">
                             <a
-                              href="http://ostromi.demo.towerthemes.com/dairy-eggs/bookshelves"
+                              href="/dairy-eggs/bookshelves"
                               class="a-second-link a-item"
                             >
                               <span class="a-second-title">Bookshelves</span>
@@ -1573,7 +1507,7 @@
                           </li>
                           <li class="li-second-items">
                             <a
-                              href="http://ostromi.demo.towerthemes.com/dairy-eggs/cabinets"
+                              href="/dairy-eggs/cabinets"
                               class="a-second-link a-item"
                             >
                               <span class="a-second-title">Cabinets</span>
@@ -1581,7 +1515,7 @@
                           </li>
                           <li class="li-second-items">
                             <a
-                              href="http://ostromi.demo.towerthemes.com/dairy-eggs/sideboards-storage"
+                              href="/dairy-eggs/sideboards-storage"
                               class="a-second-link a-item"
                             >
                               <span class="a-second-title">Sideboards</span>
@@ -1589,7 +1523,7 @@
                           </li>
                           <li class="li-second-items">
                             <a
-                              href="http://ostromi.demo.towerthemes.com/dairy-eggs/tv-cabinets"
+                              href="/dairy-eggs/tv-cabinets"
                               class="a-second-link a-item"
                             >
                               <span class="a-second-title">TV Cabinets</span>
@@ -1599,10 +1533,7 @@
                       </div>
                     </li>
                     <li class="li-top-item left">
-                      <a
-                        class="a-top-link a-item"
-                        href="http://ostromi.demo.towerthemes.com/frozen-food"
-                      >
+                      <a class="a-top-link a-item" href="/frozen-food">
                         <span>Frozen Food</span>
                         <i
                           class="icon-more-right ion-ios-arrow-right"
@@ -1619,7 +1550,7 @@
                         <ul class="ul-second-items">
                           <li class="li-second-items">
                             <a
-                              href="http://ostromi.demo.towerthemes.com/frozen-food/ceiling-lamps"
+                              href="/frozen-food/ceiling-lamps"
                               class="a-second-link a-item"
                             >
                               <span class="a-second-title">Ceiling Lamps</span>
@@ -1627,7 +1558,7 @@
                           </li>
                           <li class="li-second-items">
                             <a
-                              href="http://ostromi.demo.towerthemes.com/frozen-food/floor-lamps"
+                              href="/frozen-food/floor-lamps"
                               class="a-second-link a-item"
                             >
                               <span class="a-second-title">Floor Lamps</span>
@@ -1635,7 +1566,7 @@
                           </li>
                           <li class="li-second-items">
                             <a
-                              href="http://ostromi.demo.towerthemes.com/frozen-food/table-lamps"
+                              href="/frozen-food/table-lamps"
                               class="a-second-link a-item"
                             >
                               <span class="a-second-title">Table Lamps</span>
@@ -1643,7 +1574,7 @@
                           </li>
                           <li class="li-second-items">
                             <a
-                              href="http://ostromi.demo.towerthemes.com/frozen-food/wall-lamps"
+                              href="/frozen-food/wall-lamps"
                               class="a-second-link a-item"
                             >
                               <span class="a-second-title">Wall Lamps</span>
@@ -1653,50 +1584,32 @@
                       </div>
                     </li>
                     <li class="li-top-item left">
-                      <a
-                        class="a-top-link a-item"
-                        href="http://ostromi.demo.towerthemes.com/cookies-crackers"
-                      >
+                      <a class="a-top-link a-item" href="/cookies-crackers">
                         <span>Cookies &amp; Crackers</span>
                       </a>
                     </li>
                     <li class="li-top-item left">
-                      <a
-                        class="a-top-link a-item"
-                        href="http://ostromi.demo.towerthemes.com/breakfast"
-                      >
+                      <a class="a-top-link a-item" href="/breakfast">
                         <span>Breakfast</span>
                       </a>
                     </li>
                     <li class="li-top-item left">
-                      <a
-                        class="a-top-link a-item"
-                        href="http://ostromi.demo.towerthemes.com/bakery"
-                      >
+                      <a class="a-top-link a-item" href="/bakery">
                         <span>Bakery</span>
                       </a>
                     </li>
                     <li class="li-top-item left">
-                      <a
-                        class="a-top-link a-item"
-                        href="http://ostromi.demo.towerthemes.com/juice"
-                      >
+                      <a class="a-top-link a-item" href="/juice">
                         <span>Juice</span>
                       </a>
                     </li>
                     <li class="li-top-item left">
-                      <a
-                        class="a-top-link a-item"
-                        href="http://ostromi.demo.towerthemes.com/kitchenware"
-                      >
+                      <a class="a-top-link a-item" href="/kitchenware">
                         <span>Kitchenware</span>
                       </a>
                     </li>
                     <li class="li-top-item left over">
-                      <a
-                        class="a-top-link a-item"
-                        href="http://ostromi.demo.towerthemes.com/accessories"
-                      >
+                      <a class="a-top-link a-item" href="/accessories">
                         <span>Accessories</span>
                         <i
                           class="icon-more-right ion-ios-arrow-right"
@@ -1713,7 +1626,7 @@
                         <ul class="ul-second-items">
                           <li class="li-second-items">
                             <a
-                              href="http://ostromi.demo.towerthemes.com/accessories/mice-and-trackballs"
+                              href="/accessories/mice-and-trackballs"
                               class="a-second-link a-item"
                             >
                               <span class="a-second-title"
@@ -1728,7 +1641,7 @@
                               <ul class="ul-third-items">
                                 <li class="li-third-items">
                                   <a
-                                    href="http://ostromi.demo.towerthemes.com/index.php?route=product/category&amp;path=25_29_83"
+                                    href="/index.php?route=product/category&amp;path=25_29_83"
                                     class="a-third-link"
                                     ><span class="a-third-title"
                                       >Mice 1</span
@@ -1737,7 +1650,7 @@
                                 </li>
                                 <li class="li-third-items">
                                   <a
-                                    href="http://ostromi.demo.towerthemes.com/index.php?route=product/category&amp;path=25_29_84"
+                                    href="/index.php?route=product/category&amp;path=25_29_84"
                                     class="a-third-link"
                                     ><span class="a-third-title"
                                       >Mice 2</span
@@ -1746,7 +1659,7 @@
                                 </li>
                                 <li class="li-third-items">
                                   <a
-                                    href="http://ostromi.demo.towerthemes.com/index.php?route=product/category&amp;path=25_29_81"
+                                    href="/index.php?route=product/category&amp;path=25_29_81"
                                     class="a-third-link"
                                     ><span class="a-third-title"
                                       >Trackballs 1</span
@@ -1755,7 +1668,7 @@
                                 </li>
                                 <li class="li-third-items">
                                   <a
-                                    href="http://ostromi.demo.towerthemes.com/index.php?route=product/category&amp;path=25_29_82"
+                                    href="/index.php?route=product/category&amp;path=25_29_82"
                                     class="a-third-link"
                                     ><span class="a-third-title"
                                       >Trackballs 2</span
@@ -1767,7 +1680,7 @@
                           </li>
                           <li class="li-second-items">
                             <a
-                              href="http://ostromi.demo.towerthemes.com/accessories/scanners"
+                              href="/accessories/scanners"
                               class="a-second-link a-item"
                             >
                               <span class="a-second-title">Scanners</span>
@@ -1780,7 +1693,7 @@
                               <ul class="ul-third-items">
                                 <li class="li-third-items">
                                   <a
-                                    href="http://ostromi.demo.towerthemes.com/index.php?route=product/category&amp;path=25_31_85"
+                                    href="/index.php?route=product/category&amp;path=25_31_85"
                                     class="a-third-link"
                                     ><span class="a-third-title"
                                       >Scanners 1</span
@@ -1789,7 +1702,7 @@
                                 </li>
                                 <li class="li-third-items">
                                   <a
-                                    href="http://ostromi.demo.towerthemes.com/index.php?route=product/category&amp;path=25_31_86"
+                                    href="/index.php?route=product/category&amp;path=25_31_86"
                                     class="a-third-link"
                                     ><span class="a-third-title"
                                       >Scanners 2</span
@@ -1798,7 +1711,7 @@
                                 </li>
                                 <li class="li-third-items">
                                   <a
-                                    href="http://ostromi.demo.towerthemes.com/index.php?route=product/category&amp;path=25_31_87"
+                                    href="/index.php?route=product/category&amp;path=25_31_87"
                                     class="a-third-link"
                                     ><span class="a-third-title"
                                       >Scanners 3</span
@@ -1807,7 +1720,7 @@
                                 </li>
                                 <li class="li-third-items">
                                   <a
-                                    href="http://ostromi.demo.towerthemes.com/index.php?route=product/category&amp;path=25_31_88"
+                                    href="/index.php?route=product/category&amp;path=25_31_88"
                                     class="a-third-link"
                                     ><span class="a-third-title"
                                       >Scanners 4</span
@@ -1953,18 +1866,12 @@
                   />
                   <ul class="ul-top-items">
                     <li class="li-top-item left" style="float: left">
-                      <a
-                        class="a-top-link"
-                        href="http://ostromi.demo.towerthemes.com/"
-                      >
+                      <a class="a-top-link" href="/">
                         <span>Home</span>
                       </a>
                     </li>
                     <li class="li-top-item left" style="float: left">
-                      <a
-                        class="a-top-link"
-                        href="http://ostromi.demo.towerthemes.com/shop"
-                      >
+                      <a class="a-top-link" href="/shop">
                         <span>Shop</span>
                         <i class="ion-ios-arrow-down" aria-hidden="true"></i>
                       </a>
@@ -1982,7 +1889,7 @@
                             <h4>
                               <a
                                 class="a-mega-second-link"
-                                href="http://ostromi.demo.towerthemes.com/shop/butter-and-margarine"
+                                href="/shop/butter-and-margarine"
                                 >Butter and Margarine</a
                               >
                             </h4>
@@ -1990,35 +1897,35 @@
                               <h5>
                                 <a
                                   class="a-mega-third-link"
-                                  href="http://ostromi.demo.towerthemes.com/index.php?route=product/category&amp;path=164_173_174"
+                                  href="/index.php?route=product/category&amp;path=164_173_174"
                                   >Bed</a
                                 >
                               </h5>
                               <h5>
                                 <a
                                   class="a-mega-third-link"
-                                  href="http://ostromi.demo.towerthemes.com/index.php?route=product/category&amp;path=164_173_175"
+                                  href="/index.php?route=product/category&amp;path=164_173_175"
                                   >Daybed</a
                                 >
                               </h5>
                               <h5>
                                 <a
                                   class="a-mega-third-link"
-                                  href="http://ostromi.demo.towerthemes.com/index.php?route=product/category&amp;path=164_173_176"
+                                  href="/index.php?route=product/category&amp;path=164_173_176"
                                   >Futon</a
                                 >
                               </h5>
                               <h5>
                                 <a
                                   class="a-mega-third-link"
-                                  href="http://ostromi.demo.towerthemes.com/index.php?route=product/category&amp;path=164_173_177"
+                                  href="/index.php?route=product/category&amp;path=164_173_177"
                                   >Hammock</a
                                 >
                               </h5>
                               <h5>
                                 <a
                                   class="a-mega-third-link"
-                                  href="http://ostromi.demo.towerthemes.com/index.php?route=product/category&amp;path=164_173_178"
+                                  href="/index.php?route=product/category&amp;path=164_173_178"
                                   >Headboard</a
                                 >
                               </h5>
@@ -2031,7 +1938,7 @@
                             <h4>
                               <a
                                 class="a-mega-second-link"
-                                href="http://ostromi.demo.towerthemes.com/shop/dinners-and-entrees"
+                                href="/shop/dinners-and-entrees"
                                 >Dinners and Entrees</a
                               >
                             </h4>
@@ -2039,35 +1946,35 @@
                               <h5>
                                 <a
                                   class="a-mega-third-link"
-                                  href="http://ostromi.demo.towerthemes.com/shop/dinners-and-entrees/chairs-sofas"
+                                  href="/shop/dinners-and-entrees/chairs-sofas"
                                   >Chairs &amp; Sofas</a
                                 >
                               </h5>
                               <h5>
                                 <a
                                   class="a-mega-third-link"
-                                  href="http://ostromi.demo.towerthemes.com/index.php?route=product/category&amp;path=164_194_199"
+                                  href="/index.php?route=product/category&amp;path=164_194_199"
                                   >Chest</a
                                 >
                               </h5>
                               <h5>
                                 <a
                                   class="a-mega-third-link"
-                                  href="http://ostromi.demo.towerthemes.com/shop/dinners-and-entrees/loungers"
+                                  href="/shop/dinners-and-entrees/loungers"
                                   >Loungers</a
                                 >
                               </h5>
                               <h5>
                                 <a
                                   class="a-mega-third-link"
-                                  href="http://ostromi.demo.towerthemes.com/shop/dinners-and-entrees/sets"
+                                  href="/shop/dinners-and-entrees/sets"
                                   >Sets</a
                                 >
                               </h5>
                               <h5>
                                 <a
                                   class="a-mega-third-link"
-                                  href="http://ostromi.demo.towerthemes.com/shop/dinners-and-entrees/tables-outdoor"
+                                  href="/shop/dinners-and-entrees/tables-outdoor"
                                   >Tables</a
                                 >
                               </h5>
@@ -2080,7 +1987,7 @@
                             <h4>
                               <a
                                 class="a-mega-second-link"
-                                href="http://ostromi.demo.towerthemes.com/shop/fish-and-seafood"
+                                href="/shop/fish-and-seafood"
                                 >Fish and Seafood</a
                               >
                             </h4>
@@ -2088,35 +1995,35 @@
                               <h5>
                                 <a
                                   class="a-mega-third-link"
-                                  href="http://ostromi.demo.towerthemes.com/shop/fish-and-seafood/dining-chairs "
+                                  href="/shop/fish-and-seafood/dining-chairs "
                                   >Dining Chairs</a
                                 >
                               </h5>
                               <h5>
                                 <a
                                   class="a-mega-third-link"
-                                  href="http://ostromi.demo.towerthemes.com/shop/fish-and-seafood/dining-tables "
+                                  href="/shop/fish-and-seafood/dining-tables "
                                   >Dining Tables
                                 </a>
                               </h5>
                               <h5>
                                 <a
                                   class="a-mega-third-link"
-                                  href="http://ostromi.demo.towerthemes.com/index.php?route=product/category&amp;path=164_180_184"
+                                  href="/index.php?route=product/category&amp;path=164_180_184"
                                   >Gramophone</a
                                 >
                               </h5>
                               <h5>
                                 <a
                                   class="a-mega-third-link"
-                                  href="http://ostromi.demo.towerthemes.com/shop/fish-and-seafood/sideboards"
+                                  href="/shop/fish-and-seafood/sideboards"
                                   >Sideboards</a
                                 >
                               </h5>
                               <h5>
                                 <a
                                   class="a-mega-third-link"
-                                  href="http://ostromi.demo.towerthemes.com/shop/fish-and-seafood/tableware"
+                                  href="/shop/fish-and-seafood/tableware"
                                   >Tableware</a
                                 >
                               </h5>
@@ -2129,7 +2036,7 @@
                             <h4>
                               <a
                                 class="a-mega-second-link"
-                                href="http://ostromi.demo.towerthemes.com/shop/beef-and-veal"
+                                href="/shop/beef-and-veal"
                                 >Beef and Veal</a
                               >
                             </h4>
@@ -2137,35 +2044,35 @@
                               <h5>
                                 <a
                                   class="a-mega-third-link"
-                                  href="http://ostromi.demo.towerthemes.com/index.php?route=product/category&amp;path=164_33_93"
+                                  href="/index.php?route=product/category&amp;path=164_33_93"
                                   >Banquet camera</a
                                 >
                               </h5>
                               <h5>
                                 <a
                                   class="a-mega-third-link"
-                                  href="http://ostromi.demo.towerthemes.com/shop/beef-and-veal/bathroom-storage"
+                                  href="/shop/beef-and-veal/bathroom-storage"
                                   >Bathroom storage</a
                                 >
                               </h5>
                               <h5>
                                 <a
                                   class="a-mega-third-link"
-                                  href="http://ostromi.demo.towerthemes.com/shop/beef-and-veal/bathroom-vanities"
+                                  href="/shop/beef-and-veal/bathroom-vanities"
                                   >Bathroom Vanities</a
                                 >
                               </h5>
                               <h5>
                                 <a
                                   class="a-mega-third-link"
-                                  href="http://ostromi.demo.towerthemes.com/shop/beef-and-veal/hyllis"
+                                  href="/shop/beef-and-veal/hyllis"
                                   >Hyllis</a
                                 >
                               </h5>
                               <h5>
                                 <a
                                   class="a-mega-third-link"
-                                  href="http://ostromi.demo.towerthemes.com/shop/beef-and-veal/sinks"
+                                  href="/shop/beef-and-veal/sinks"
                                   >Sinks</a
                                 >
                               </h5>
@@ -2177,10 +2084,7 @@
                       <!-- Flyout Menu -->
                     </li>
                     <li class="li-top-item left" style="float: left">
-                      <a
-                        class="a-top-link"
-                        href="http://ostromi.demo.towerthemes.com/accessories"
-                      >
+                      <a class="a-top-link" href="/accessories">
                         <span>Accessories</span>
                         <i class="ion-ios-arrow-down" aria-hidden="true"></i>
                       </a>
@@ -2194,7 +2098,7 @@
                         <ul class="ul-second-items">
                           <li class="li-second-items">
                             <a
-                              href="http://ostromi.demo.towerthemes.com/accessories/mice-and-trackballs"
+                              href="/accessories/mice-and-trackballs"
                               class="a-second-link a-item"
                             >
                               <span class="a-second-title"
@@ -2209,7 +2113,7 @@
                               <ul class="ul-third-items">
                                 <li class="li-third-items">
                                   <a
-                                    href="http://ostromi.demo.towerthemes.com/index.php?route=product/category&amp;path=25_29_83"
+                                    href="/index.php?route=product/category&amp;path=25_29_83"
                                     class="a-third-link"
                                     ><span class="a-third-title"
                                       >Mice 1</span
@@ -2218,7 +2122,7 @@
                                 </li>
                                 <li class="li-third-items">
                                   <a
-                                    href="http://ostromi.demo.towerthemes.com/index.php?route=product/category&amp;path=25_29_84"
+                                    href="/index.php?route=product/category&amp;path=25_29_84"
                                     class="a-third-link"
                                     ><span class="a-third-title"
                                       >Mice 2</span
@@ -2227,7 +2131,7 @@
                                 </li>
                                 <li class="li-third-items">
                                   <a
-                                    href="http://ostromi.demo.towerthemes.com/index.php?route=product/category&amp;path=25_29_81"
+                                    href="/index.php?route=product/category&amp;path=25_29_81"
                                     class="a-third-link"
                                     ><span class="a-third-title"
                                       >Trackballs 1</span
@@ -2236,7 +2140,7 @@
                                 </li>
                                 <li class="li-third-items">
                                   <a
-                                    href="http://ostromi.demo.towerthemes.com/index.php?route=product/category&amp;path=25_29_82"
+                                    href="/index.php?route=product/category&amp;path=25_29_82"
                                     class="a-third-link"
                                     ><span class="a-third-title"
                                       >Trackballs 2</span
@@ -2248,7 +2152,7 @@
                           </li>
                           <li class="li-second-items">
                             <a
-                              href="http://ostromi.demo.towerthemes.com/accessories/scanners"
+                              href="/accessories/scanners"
                               class="a-second-link a-item"
                             >
                               <span class="a-second-title">Scanners</span>
@@ -2261,7 +2165,7 @@
                               <ul class="ul-third-items">
                                 <li class="li-third-items">
                                   <a
-                                    href="http://ostromi.demo.towerthemes.com/index.php?route=product/category&amp;path=25_31_85"
+                                    href="/index.php?route=product/category&amp;path=25_31_85"
                                     class="a-third-link"
                                     ><span class="a-third-title"
                                       >Scanners 1</span
@@ -2270,7 +2174,7 @@
                                 </li>
                                 <li class="li-third-items">
                                   <a
-                                    href="http://ostromi.demo.towerthemes.com/index.php?route=product/category&amp;path=25_31_86"
+                                    href="/index.php?route=product/category&amp;path=25_31_86"
                                     class="a-third-link"
                                     ><span class="a-third-title"
                                       >Scanners 2</span
@@ -2279,7 +2183,7 @@
                                 </li>
                                 <li class="li-third-items">
                                   <a
-                                    href="http://ostromi.demo.towerthemes.com/index.php?route=product/category&amp;path=25_31_87"
+                                    href="/index.php?route=product/category&amp;path=25_31_87"
                                     class="a-third-link"
                                     ><span class="a-third-title"
                                       >Scanners 3</span
@@ -2288,7 +2192,7 @@
                                 </li>
                                 <li class="li-third-items">
                                   <a
-                                    href="http://ostromi.demo.towerthemes.com/index.php?route=product/category&amp;path=25_31_88"
+                                    href="/index.php?route=product/category&amp;path=25_31_88"
                                     class="a-third-link"
                                     ><span class="a-third-title"
                                       >Scanners 4</span
@@ -2302,18 +2206,12 @@
                       </div>
                     </li>
                     <li class="li-top-item left" style="float: left">
-                      <a
-                        class="a-top-link"
-                        href="http://ostromi.demo.towerthemes.com/product-special"
-                      >
+                      <a class="a-top-link" href="/product-special">
                         <span>Specials</span>
                       </a>
                     </li>
                     <li class="li-top-item left" style="float: left">
-                      <a
-                        class="a-top-link"
-                        href="http://ostromi.demo.towerthemes.com/blog"
-                      >
+                      <a class="a-top-link" href="/blog">
                         <span>Blog</span>
                         <i class="ion-ios-arrow-down" aria-hidden="true"></i>
                       </a>
@@ -2333,7 +2231,7 @@
                                 <a
                                   href="index.php?route=plaza/blog&amp;layout=left"
                                   ><img
-                                    src="image/catalog/blog-menu/blog-page-left-column.jpg"
+                                    src="./assets/images/blog-page-left-column.jpg"
                                     alt="blog-page-left-column"
                                 /></a>
                               </div>
@@ -2349,7 +2247,7 @@
                                 <a
                                   href="index.php?route=plaza/blog&amp;layout=right"
                                   ><img
-                                    src="image/catalog/blog-menu/blog-page-right-column.jpg"
+                                    src="./assets/images/blog-page-right-column.jpg"
                                     alt="blog-page-right-column"
                                 /></a>
                               </div>
@@ -2365,7 +2263,7 @@
                                 <a
                                   href="index.php?route=plaza/blog&amp;layout=full&amp;content=grid"
                                   ><img
-                                    src="image/catalog/blog-menu/blog-page-grid-style.jpg"
+                                    src="./assets/images/blog-page-grid-style.jpg"
                                     alt="blog-page-grid-style"
                                 /></a>
                               </div>
@@ -2381,7 +2279,7 @@
                                 <a
                                   href="index.php?route=plaza/blog&amp;layout=full&amp;content=list"
                                   ><img
-                                    src="image/catalog/blog-menu/blog-page-list-style.jpg"
+                                    src="./assets/images/blog-page-list-style.jpg"
                                     alt="blog-page-list-style"
                                 /></a>
                               </div>
@@ -2395,7 +2293,7 @@
                                 <a
                                   href="index.php?route=plaza/blog/category&amp;post_list_id=1"
                                   ><img
-                                    src="image/catalog/blog-menu/categories-post-page.jpg"
+                                    src="./assets/images/categories-post-page.jpg"
                                     alt="categories-post-page"
                                 /></a>
                               </div>
@@ -2409,7 +2307,7 @@
                                 <a
                                   href="index.php?route=plaza/blog/post&amp;post_id=1"
                                   ><img
-                                    src="image/catalog/blog-menu/post-page.jpg"
+                                    src="./assets/images/post-page.jpg"
                                     alt="post-page"
                                 /></a>
                               </div>
@@ -2424,8 +2322,7 @@
                 </div>
               </div>
               <div class="header-phone">
-                <a
-                  href="http://ostromi.demo.towerthemes.com/information-contact"
+                <a href="/information-contact"
                   ><span class="hidden-xs hidden-sm hidden-md"
                     >Call Us Now:<span>+88.2345.6789</span></span
                   ></a
@@ -2438,14 +2335,10 @@
       <div id="product-search" class="container">
         <ul class="breadcrumb">
           <li>
-            <a href="http://ostromi.demo.towerthemes.com/"
-              ><i class="fa fa-home"></i
-            ></a>
+            <a href="/"><i class="fa fa-home"></i></a>
           </li>
           <li>
-            <a href="http://ostromi.demo.towerthemes.com/product-special"
-              >Special Offers</a
-            >
+            <a href="/product-special">Special Offers</a>
           </li>
         </ul>
         <div class="row">
@@ -2480,7 +2373,7 @@
                 <div class="col-md-3 col-sm-6 col-xs-6">
                   <div class="form-group">
                     <a
-                      href="http://ostromi.demo.towerthemes.com/index.php?route=product/compare"
+                      href="/index.php?route=product/compare"
                       id="compare-total"
                       class="btn btn-link"
                       >Product Compare (0)</a
@@ -2498,56 +2391,56 @@
                       onchange="location = this.value;"
                     >
                       <option
-                        value="http://ostromi.demo.towerthemes.com/product-special?sort=p.sort_order&amp;order=ASC"
+                        value="/product-special?sort=p.sort_order&amp;order=ASC"
                         selected="selected"
                       >
                         Default
                       </option>
 
                       <option
-                        value="http://ostromi.demo.towerthemes.com/product-special?sort=pd.name&amp;order=ASC"
+                        value="/product-special?sort=pd.name&amp;order=ASC"
                       >
                         Name (A - Z)
                       </option>
 
                       <option
-                        value="http://ostromi.demo.towerthemes.com/product-special?sort=pd.name&amp;order=DESC"
+                        value="/product-special?sort=pd.name&amp;order=DESC"
                       >
                         Name (Z - A)
                       </option>
 
                       <option
-                        value="http://ostromi.demo.towerthemes.com/product-special?sort=ps.price&amp;order=ASC"
+                        value="/product-special?sort=ps.price&amp;order=ASC"
                       >
                         Price (Low &gt; High)
                       </option>
 
                       <option
-                        value="http://ostromi.demo.towerthemes.com/product-special?sort=ps.price&amp;order=DESC"
+                        value="/product-special?sort=ps.price&amp;order=DESC"
                       >
                         Price (High &gt; Low)
                       </option>
 
                       <option
-                        value="http://ostromi.demo.towerthemes.com/product-special?sort=rating&amp;order=DESC"
+                        value="/product-special?sort=rating&amp;order=DESC"
                       >
                         Rating (Highest)
                       </option>
 
                       <option
-                        value="http://ostromi.demo.towerthemes.com/product-special?sort=rating&amp;order=ASC"
+                        value="/product-special?sort=rating&amp;order=ASC"
                       >
                         Rating (Lowest)
                       </option>
 
                       <option
-                        value="http://ostromi.demo.towerthemes.com/product-special?sort=p.model&amp;order=ASC"
+                        value="/product-special?sort=p.model&amp;order=ASC"
                       >
                         Model (A - Z)
                       </option>
 
                       <option
-                        value="http://ostromi.demo.towerthemes.com/product-special?sort=p.model&amp;order=DESC"
+                        value="/product-special?sort=p.model&amp;order=DESC"
                       >
                         Model (Z - A)
                       </option>
@@ -2565,35 +2458,19 @@
                       onchange="location = this.value;"
                     >
                       <option
-                        value="http://ostromi.demo.towerthemes.com/product-special?limit=12"
+                        value="/product-special?limit=12"
                         selected="selected"
                       >
                         12
                       </option>
 
-                      <option
-                        value="http://ostromi.demo.towerthemes.com/product-special?limit=25"
-                      >
-                        25
-                      </option>
+                      <option value="/product-special?limit=25">25</option>
 
-                      <option
-                        value="http://ostromi.demo.towerthemes.com/product-special?limit=50"
-                      >
-                        50
-                      </option>
+                      <option value="/product-special?limit=50">50</option>
 
-                      <option
-                        value="http://ostromi.demo.towerthemes.com/product-special?limit=75"
-                      >
-                        75
-                      </option>
+                      <option value="/product-special?limit=75">75</option>
 
-                      <option
-                        value="http://ostromi.demo.towerthemes.com/product-special?limit=100"
-                      >
-                        100
-                      </option>
+                      <option value="/product-special?limit=100">100</option>
                     </select>
                   </div>
                 </div>
@@ -2605,11 +2482,9 @@
                   <div class="product-item">
                     <div class="image rotate-image-container">
                       <div class="inner">
-                        <a
-                          href="http://ostromi.demo.towerthemes.com/apple-cinema-30-inch-hd-flat-panel-display1"
-                        >
+                        <a href="/apple-cinema-30-inch-hd-flat-panel-display1">
                           <img
-                            src="http://ostromi.demo.towerthemes.com/image/cache/catalog/products/1-600x600.jpg"
+                            src="./assets/images/1-600x600.jpg"
                             alt="Apple Cinema 30-inch HD Flat-Panel Display"
                             title="Apple Cinema 30-inch HD Flat-Panel Display"
                             class="img-responsive img-default-image"
@@ -2651,13 +2526,10 @@
                     </div>
                     <div class="caption">
                       <p class="manufacture-product">
-                        <a href="http://ostromi.demo.towerthemes.com/apple"
-                          >Apple</a
-                        >
+                        <a href="/apple">Apple</a>
                       </p>
                       <h4>
-                        <a
-                          href="http://ostromi.demo.towerthemes.com/apple-cinema-30-inch-hd-flat-panel-display1"
+                        <a href="/apple-cinema-30-inch-hd-flat-panel-display1"
                           >Apple Cinema 30-inch HD Flat-Panel Display</a
                         >
                       </h4>
@@ -2699,9 +2571,9 @@
                   <div class="product-item">
                     <div class="image rotate-image-container">
                       <div class="inner">
-                        <a href="http://ostromi.demo.towerthemes.com/imac1">
+                        <a href="/imac1">
                           <img
-                            src="http://ostromi.demo.towerthemes.com/image/cache/catalog/products/13-600x600.jpg"
+                            src="./assets/images/13-600x600.jpg"
                             alt="iMac 4K 21.5-inch 2017 Mac Center"
                             title="iMac 4K 21.5-inch 2017 Mac Center"
                             class="img-responsive img-default-image"
@@ -2743,14 +2615,10 @@
                     </div>
                     <div class="caption">
                       <p class="manufacture-product">
-                        <a href="http://ostromi.demo.towerthemes.com/apple"
-                          >Apple</a
-                        >
+                        <a href="/apple">Apple</a>
                       </p>
                       <h4>
-                        <a href="http://ostromi.demo.towerthemes.com/imac1"
-                          >iMac 4K 21.5-inch 2017 Mac Center</a
-                        >
+                        <a href="/imac1">iMac 4K 21.5-inch 2017 Mac Center</a>
                       </h4>
                       <div class="rating">
                         <span class="icon-ratings"
@@ -2790,11 +2658,9 @@
                   <div class="product-item">
                     <div class="image rotate-image-container">
                       <div class="inner">
-                        <a
-                          href="http://ostromi.demo.towerthemes.com/macbook-pro1"
-                        >
+                        <a href="/macbook-pro1">
                           <img
-                            src="http://ostromi.demo.towerthemes.com/image/cache/catalog/products/9-600x600.jpg"
+                            src="./assets/images/9-600x600.jpg"
                             alt='MacBook Pro - 15" Display with Touch Bar - Intel Core i7'
                             title='MacBook Pro - 15" Display with Touch Bar - Intel Core i7'
                             class="img-responsive img-default-image"
@@ -2836,13 +2702,10 @@
                     </div>
                     <div class="caption">
                       <p class="manufacture-product">
-                        <a href="http://ostromi.demo.towerthemes.com/apple"
-                          >Apple</a
-                        >
+                        <a href="/apple">Apple</a>
                       </p>
                       <h4>
-                        <a
-                          href="http://ostromi.demo.towerthemes.com/macbook-pro1"
+                        <a href="/macbook-pro1"
                           >MacBook Pro - 15&quot; Display with Touch Bar - Intel
                           Core i7</a
                         >
@@ -2885,11 +2748,9 @@
                   <div class="product-item">
                     <div class="image rotate-image-container">
                       <div class="inner">
-                        <a
-                          href="http://ostromi.demo.towerthemes.com/palm-treo-pro1"
-                        >
+                        <a href="/palm-treo-pro1">
                           <img
-                            src="http://ostromi.demo.towerthemes.com/image/cache/catalog/products/3-600x600.jpg"
+                            src="./assets/images/3-600x600.jpg"
                             alt="Palm Treo Pro Unlocked Phone with 2 MP Camera"
                             title="Palm Treo Pro Unlocked Phone with 2 MP Camera"
                             class="img-responsive img-default-image"
@@ -2933,13 +2794,10 @@
                     </div>
                     <div class="caption">
                       <p class="manufacture-product">
-                        <a href="http://ostromi.demo.towerthemes.com/palm"
-                          >Palm</a
-                        >
+                        <a href="/palm">Palm</a>
                       </p>
                       <h4>
-                        <a
-                          href="http://ostromi.demo.towerthemes.com/palm-treo-pro1"
+                        <a href="/palm-treo-pro1"
                           >Palm Treo Pro Unlocked Phone with 2 MP Camera</a
                         >
                       </h4>
@@ -2981,11 +2839,9 @@
                   <div class="product-item">
                     <div class="image rotate-image-container">
                       <div class="inner">
-                        <a
-                          href="http://ostromi.demo.towerthemes.com/samsung-syncmaster-941bw1"
-                        >
+                        <a href="/samsung-syncmaster-941bw1">
                           <img
-                            src="http://ostromi.demo.towerthemes.com/image/cache/catalog/products/7-600x600.jpg"
+                            src="./assets/images/7-600x600.jpg"
                             alt='Samsung SyncMaster 2443BW - LCD monitor - 24" Series'
                             title='Samsung SyncMaster 2443BW - LCD monitor - 24" Series'
                             class="img-responsive img-default-image"
@@ -3027,13 +2883,10 @@
                     </div>
                     <div class="caption">
                       <p class="manufacture-product">
-                        <a href="http://ostromi.demo.towerthemes.com/palm"
-                          >Palm</a
-                        >
+                        <a href="/palm">Palm</a>
                       </p>
                       <h4>
-                        <a
-                          href="http://ostromi.demo.towerthemes.com/samsung-syncmaster-941bw1"
+                        <a href="/samsung-syncmaster-941bw1"
                           >Samsung SyncMaster 2443BW - LCD monitor - 24&quot;
                           Series</a
                         >
@@ -3076,11 +2929,9 @@
                   <div class="product-item">
                     <div class="image rotate-image-container">
                       <div class="inner">
-                        <a
-                          href="http://ostromi.demo.towerthemes.com/samsung-galaxy-tab-10-11"
-                        >
+                        <a href="/samsung-galaxy-tab-10-11">
                           <img
-                            src="http://ostromi.demo.towerthemes.com/image/cache/catalog/products/6-600x600.jpg"
+                            src="./assets/images/6-600x600.jpg"
                             alt='SAMSUNG Galaxy Tab E 9.6" 16GB Android 6.0'
                             title='SAMSUNG Galaxy Tab E 9.6" 16GB Android 6.0'
                             class="img-responsive img-default-image"
@@ -3122,13 +2973,10 @@
                     </div>
                     <div class="caption">
                       <p class="manufacture-product">
-                        <a href="http://ostromi.demo.towerthemes.com/canon"
-                          >Canon</a
-                        >
+                        <a href="/canon">Canon</a>
                       </p>
                       <h4>
-                        <a
-                          href="http://ostromi.demo.towerthemes.com/samsung-galaxy-tab-10-11"
+                        <a href="/samsung-galaxy-tab-10-11"
                           >SAMSUNG Galaxy Tab E 9.6&quot; 16GB Android 6.0</a
                         >
                       </h4>
@@ -3285,46 +3133,28 @@
                     >
                       <ul class="list-unstyled">
                         <li>
-                          <a href="http://ostromi.demo.towerthemes.com/about_us"
-                            >About Us</a
-                          >
+                          <a href="/about_us">About Us</a>
                         </li>
                         <li>
-                          <a href="http://ostromi.demo.towerthemes.com/delivery"
-                            >Delivery Information</a
-                          >
+                          <a href="/delivery">Delivery Information</a>
                         </li>
                         <li>
-                          <a href="http://ostromi.demo.towerthemes.com/privacy"
-                            >Privacy Policy</a
-                          >
+                          <a href="/privacy">Privacy Policy</a>
                         </li>
                         <li>
-                          <a href="http://ostromi.demo.towerthemes.com/terms"
-                            >Terms &amp; Conditions</a
-                          >
+                          <a href="/terms">Terms &amp; Conditions</a>
                         </li>
                         <li>
-                          <a
-                            href="http://ostromi.demo.towerthemes.com/information-contact"
-                            >Contact Us</a
-                          >
+                          <a href="/information-contact">Contact Us</a>
                         </li>
                         <li>
-                          <a
-                            href="http://ostromi.demo.towerthemes.com/information-sitemap"
-                            >Site Map</a
-                          >
+                          <a href="/information-sitemap">Site Map</a>
                         </li>
                         <li>
-                          <a
-                            href="http://ostromi.demo.towerthemes.com/account-voucher"
-                            >Gift Certificates</a
-                          >
+                          <a href="/account-voucher">Gift Certificates</a>
                         </li>
                         <li>
-                          <a
-                            href="http://ostromi.demo.towerthemes.com/index.php?route=account/newsletter"
+                          <a href="/index.php?route=account/newsletter"
                             >Newsletter</a
                           >
                         </li>
@@ -3341,50 +3171,30 @@
                     <div class="dropdown-menu">
                       <ul class="list-unstyled">
                         <li>
-                          <a
-                            href="http://ostromi.demo.towerthemes.com/product-manufacturer"
-                            >Brands</a
-                          >
+                          <a href="/product-manufacturer">Brands</a>
                         </li>
                         <li>
-                          <a
-                            href="http://ostromi.demo.towerthemes.com/account-voucher"
-                            >Gift Certificates</a
-                          >
+                          <a href="/account-voucher">Gift Certificates</a>
                         </li>
                         <li>
-                          <a
-                            href="http://ostromi.demo.towerthemes.com/affiliate-login"
-                            >Affiliate</a
-                          >
+                          <a href="/affiliate-login">Affiliate</a>
                         </li>
                         <li>
-                          <a
-                            href="http://ostromi.demo.towerthemes.com/product-special"
-                            >Specials</a
-                          >
+                          <a href="/product-special">Specials</a>
                         </li>
                         <li>
-                          <a
-                            href="http://ostromi.demo.towerthemes.com/account-return-add"
-                            >Returns</a
-                          >
+                          <a href="/account-return-add">Returns</a>
                         </li>
                         <li>
-                          <a
-                            href="http://ostromi.demo.towerthemes.com/account-order"
-                            >Order History</a
-                          >
+                          <a href="/account-order">Order History</a>
                         </li>
                         <li>
-                          <a
-                            href="http://ostromi.demo.towerthemes.com/index.php?route=account/account"
+                          <a href="/index.php?route=account/account"
                             >My Account</a
                           >
                         </li>
                         <li>
-                          <a
-                            href="http://ostromi.demo.towerthemes.com/index.php?route=account/wishlist"
+                          <a href="/index.php?route=account/wishlist"
                             >Wish List</a
                           >
                         </li>
@@ -3421,7 +3231,7 @@
                 competitive prices.
               </p>
               <div class="payment">
-                <img src="image/catalog/ptblock/payment.png" alt="payment" />
+                <img src="./assets/images/payment.png" alt="payment" />
               </div>
             </div>
           </div>
